@@ -1,11 +1,11 @@
 {
-  "homepage": "https://deplyprueba.herokuapp.com/board-sw1",
+  "homepage": "https://PabloBustosB.github.io/board-sw1",
   "name": "board",
   "version": "0.1.0",
   "private": true,
   "engines": {
-    "node": "14.x",
-    "npm":"8.x"
+    "node": "14.x"
+    
   },
   "dependencies": {
     "@mui/icons-material": "^5.8.4",
@@ -45,7 +45,6 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "build-localhost": "PUBLIC_URL=/ react-scripts build",
     "build-css": "npx tailwindcss -i ./tailwind.css -o ./src/index.css"
   },
   "resoluciones": {
