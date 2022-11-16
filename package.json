@@ -1,8 +1,10 @@
 {
-  "homepage": "https://PabloBustosB.github.io/board-sw1",
   "name": "board",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "14.0.0"
+  },
   "dependencies": {
     "@mui/icons-material": "^5.8.4",
     "@react-pdf/renderer": "^3.0.1",
