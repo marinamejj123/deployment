@@ -1,11 +1,10 @@
 {
-  "homepage": "https://PabloBustosB.github.io/board-sw1",
+  "homepage": "https://marinamejj123.github.io/local",
   "name": "board",
   "version": "0.1.0",
   "private": true,
   "engines": {
     "node": "14.x"
-    
   },
   "dependencies": {
     "@mui/icons-material": "^5.8.4",
