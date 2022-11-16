@@ -4,7 +4,8 @@
   "version": "0.1.0",
   "private": true,
   "engines": {
-    "node": "14.x"
+    "node": "14.x",
+    "npm":"8.x"
   },
   "dependencies": {
     "@mui/icons-material": "^5.8.4",
