@@ -1,11 +1,10 @@
 {
-  "homepage": "https://marinamejj123.github.io/ojala",
   "name": "board",
   "version": "0.1.0",
   "private": true,
   "engines": {
-    "node": "14.x",
-    "npm": "8.x"
+    "node": "14.0.0",
+    "npm": "8.19.2"
   },
   "dependencies": {
     "@mui/icons-material": "^5.8.4",
