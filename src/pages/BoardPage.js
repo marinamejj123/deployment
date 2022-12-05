@@ -327,7 +327,7 @@ function BoardPage(props) {
             
             {modalActions.pdf &&
             
-            <Modal title={'Exportar PDFs'} setModal={setModalActions} value={{pdf: false, delete: false}}>
+            <Modal title={'Exportar PD'} setModal={setModalActions} value={{pdf: false, delete: false}}>
               
   <div>
       <ReactToPrint
