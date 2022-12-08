@@ -331,7 +331,7 @@ function BoardPage(props) {
               
   <div>
       <ReactToPrint
-        trigger={() => <button>Click para Imprimir!</button>}
+        trigger={() => <button>Click Aqui para Imprimir!</button>}
         content={() => componentRef.current}
       />
       <ComponentToPrint ref={componentRef} />
