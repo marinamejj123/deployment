@@ -159,6 +159,8 @@ function BoardPage(props) {
                     </div>
 
                 </div>
+
+
                 <div className={'space-y-2 flex flex-col'}>
                     <button className={'border rounded block my-5 inline-flex space-x-2 p-2 hover:shadow-lg bg-blue-300'}
                             onClick={e => setModalActions({
@@ -190,6 +192,8 @@ function BoardPage(props) {
                     }
                 </div>
             </div>
+
+            
 
 
             <div className={'w-full relative overflow-auto bg-yellow-50'}>
@@ -327,7 +331,7 @@ function BoardPage(props) {
             
             {modalActions.pdf &&
             
-            <Modal title={'Exportar PD'} setModal={setModalActions} value={{pdf: false, delete: false}}>
+            <Modal title={'Exportar PDF'} setModal={setModalActions} value={{pdf: false, delete: false}}>
               
   <div>
       <ReactToPrint
